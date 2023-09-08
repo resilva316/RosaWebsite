@@ -1,0 +1,14 @@
+h1 {
+    color:blueviolet;
+    text-align: center;
+}
+/*this is  a comment */
+.green {
+    color:green;
+}
+
+div {
+    background-color:gainsboro;
+    padding:18px; 
+    text-align: center;
+}
