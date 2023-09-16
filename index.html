@@ -1,37 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Homepage</title>
-        <meta charset="UTF-8">
-        <!--link rel = "stylesheet" href="css/style.css"/-->
-    </head>
-    <body>
-        <header>
-            <nav>
-                <table>
-                    <tr>
-                        <th> <a href="index.html"> <img src="images/logo2.png" alt="Logo"></a> </th>
-                        <th> <a href="aboutme.html">About Me |</a> </th>
-                        <th> <a href="hobbies.html">Hobbies |</a> </th>
-                        <th> <a href="contact.html">Contact</a> </th>
-                    </tr>
-                </table>
-            </nav>
-        </header>
-        <h1>WELCOME</h1>
-        <table>
-            <tr>
-                <td> <img src="images/photo.jpg" alt="Flower Cover"></td>
-                <td>
-                    <p>Hello!!!</p>
-                    <p>This is Rosa's personal Website</p>
-                    <p>Click on each link to learn more about Rosa!</p>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <footer>
-            <p>Author: Rosa Silva (Personal Project)</p>
-        </footer>
-    </body>
+  <head>
+    <title>Homepage</title>
+    <link rel="icon" type="image/x-icon" href="images/logotrasnp.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!--Navigation-->
+    <header>
+      <div class="container">
+      <nav>
+        <ul class="navlist">
+          <li class="navbar"><a href="index.html">Home</a></li>
+          <li class="navbar"><a href="aboutme.html">About</a></li>
+          <li class="navbar"><a href="hobbies.html">Hobbies</a></li>
+          <li class="navbar"><a href="contact.html">Contact</a></li>
+          <li><img src="images/logotrasnp.png" alt="Logo" class="logo"></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <div class="pattern"></div>
+    <main>
+      <div class="container">
+        <h1>Welcome</h1>
+        <div class="introcont">
+          <header class="introname">Introduction</header>
+          <div class="introcontainer flex">
+            <span class="introicon"></span>
+            <h2 class="introtitle">Personal Website</h2>
+          </div>
+          <h3 class="introdes">Hi! My name is Rosa Silva and this is my project! Learn more about me by clicking on the links above!</h3>
+          <br>
+          <div class="row">
+            <div class="column">
+                <img src="images/friends.jpg" alt="Friends" class="friends">
+            </div>
+            <div class="column">
+                <img src="images/newyears.jpg" alt="New Years" class="friends">
+            </div>
+            <div class="column">
+                <img src="images/cosplay.jpg" alt="Cosplay" class="friends">
+            </div>
+            <div class="column">
+                <img src="images/snow.jpg" alt="Snow" class="friends">
+            </div>
+        </div>
+        </div>
+      </div>
+    </main>
+    <br>
+        <div class="container">
+            <footer>
+                <div class="content bot-overlay flex-sb">
+                    <img src="images/logotrasnp.png" alt="Logo" class="logofooter">
+                    <p>Website by Rosa Silva</p>
+                </div>
+            </footer>
+        </div>
+  </body>
 </html>

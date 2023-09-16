@@ -3,54 +3,74 @@
     <head>
         <title>About Me</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
-            <nav>
-                <table>
-                    <tr>
-                        <th> <a href="index.html"> <img src="images/logo2.png" alt="Logo"></a> </th>
-                        <th> <a href="aboutme.html">About Me |</a> </th>
-                        <th> <a href="hobbies.html">Hobbies |</a> </th>
-                        <th> <a href="contact.html">Contact</a> </th>
-                    </tr>
-                </table>
-            </nav>
+            <div class="container">
+                <nav>
+                    <ul class="navlist">
+                        <li class="navbar"><a href="index.html">Home</a></li>
+                        <li class="navbar"><a href="aboutme.html">About</a></li>
+                        <li class="navbar"><a href="hobbies.html">Hobbies</a></li>
+                        <li class="navbar"><a href="contact.html">Contact</a></li>
+                        <li><img src="images/logotrasnp.png" class="logo"></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <h1>Who is Rosa?</h1> 
-        <p>Hello! My name is Rosa Silva and I am a student at Cal State Fullerton.</p>
-        <p>I am currently taking CPSC 349 - Web Front-End Engineering </p>
-        <p>Below is my work experience</p>
-        <h2>Work Experience</h2>
-        <details>
-            <summary>Accounts Payable Processor, CTT - (May 2021 - Present)</summary>
-            <ul>
-                <li>Print all accounts payable reports and maintain all accounts payable files</li>
-                <li>Perform timely account reconciliation by verifying entries and comparing to balances</li>
-                <li>Analyze, prioritize, code and pay invoices, managing vendor or supplier expectations</li>
-                <li>Assist in mailing of weekly checks, Answering phone calls and emails as needed</li>
-            </ul>
-        </details>
+        <div class="pattern"></div>
+        <main>
+            <div class="container">
+                <h1>Who is Rosa?</h1>
+                <div class="content"> 
+                    <p>Hello! My name is Rosa Silva and I am a student at Cal State Fullerton.</p>
+                    <p>I am currently taking CPSC 349 - Web Front-End Engineering </p>
+                </div>
+                <div class="introname"></div>
+                <div class="introcontainer flex">
+                    <span class="introicon"></span>
+                    <h2 class="introtitle">Work Experience</h2>
+                </div>
+                <h3 class="introdes">This is my work experience</h3>
+                <br>
+                <details>
+                    <summary>Accounts Payable Processor, CTT - (May 2021 - Present)</summary>
+                    <ul class="ulback">
+                        <li>Print all accounts payable reports and maintain all accounts payable files</li>
+                        <li>Perform timely account reconciliation by verifying entries and comparing to balances</li>
+                        <li>Analyze, prioritize, code and pay invoices, managing vendor or supplier expectations</li>
+                        <li>Assist in mailing of weekly checks, Answering phone calls and emails as needed</li>
+                    </ul>
+                </details>
+                <br>
+                <details>
+                    <summary>Safety Coordinator, Santa Anita Park - (Jan 2021 - May 2021)</summary>
+                    <ul class="ulback">
+                        <li>Took Temperatures of Employees</li>
+                        <li>Made sure employees were following COVID procedures</li>
+                    </ul>
+                </details>
+                <br>
+                <details>
+                    <summary>Marketing Assistant, Santa Anita Park - (Sep 2016 - Apr 2021)</summary>
+                    <ul class="ulback">
+                        <li>Check-in guest during events</li>
+                        <li>Helped guest with directions</li>
+                        <li>Helped out during Events</li>
+                    </ul>
+                </details>
+            </div>
+        </main>
         <br>
-        <details>
-            <summary>Safety Coordinator, Santa Anita Park - (Jan 2021 - May 2021)</summary>
-            <ul>
-                <li>Took Temperatures of Employees</li>
-                <li>Made sure employees were following COVID procedures</li>
-            </ul>
-        </details>
-        <br>
-        <details>
-            <summary>Marketing Assistant, Santa Anita Park - (Sep 2016 - Apr 2021)</summary>
-            <ul>
-                <li>Check-in guest during events</li>
-                <li>Helped guest with directions</li>
-                <li>Helped out during Events</li>
-            </ul>
-         </details>
-         <hr>
-         <footer>
-            <p>Author: Rosa Silva (Personal Project)</p>
-        </footer>
+        <div class="container">
+            <footer>
+                <div class="content bot-overlay flex-sb">
+                    <img src="images/logotrasnp.png" alt="Logo" class="logofooter">
+                    <p>Website by Rosa Silva</p>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>

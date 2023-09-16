@@ -3,42 +3,48 @@
     <head>
         <title>Contact</title>
         <meta charset="UTF-8">
-        <!--link rel = "stylesheet" href="css/style.css"/-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href="css/style.css"/>
     </head>
     <body>
         <header>
-            <nav>
-                <table>
-                    <tr>
-                        <th> <a href="index.html"> <img src="images/logo2.png" alt="Logo"></a> </th>
-                        <th> <a href="aboutme.html">About Me |</a> </th>
-                        <th> <a href="hobbies.html">Hobbies |</a> </th>
-                        <th> <a href="contact.html">Contact</a> </th>
-                    </tr>
-                </table>
-            </nav>
+            <div class="container">
+                <nav>
+                    <ul class="navlist">
+                        
+                        <li class="navbar"><a href="index.html">Home</a></li>
+                        <li class="navbar"><a href="aboutme.html">About</a></li>
+                        <li class="navbar"><a href="hobbies.html">Hobbies</a></li>
+                        <li class="navbar"><a href="contact.html">Contact</a></li>
+                        <li><img src="images/logotrasnp.png" alt="Logo" class="logo"></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <h1>Get In Touch</h1>
+        <div class="pattern"></div>
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <div class="content">
+                <p>Have any Questions? Feel free to contact me down below!</p>
+            </div>
+        </div>
         <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"> 
-            <br>
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email">
-            <br>
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject">
-            <br>
-            <label>Your Message</label>
-            <br>
-            <textarea name="message" rows="10" cols="30"></textarea>
-            <br>
-            <button type="button" onclick="alert('THANK YOU!')">Submit</button>
+            <h2 class="head2">CONTACT</h2>
+            <p type="Name:"><input placeholder="Enter your name here"></input></p>
+            <p type="Email:"><input placeholder="Enter Email.."></input></p>
+            <p type="Message:"><input placeholder="Enter your Message.."></input></p>
+            <button class="navbar">Send</button>
         </form>
-        <hr>
-        <footer>
-            <p>Author: Rosa Silva (Personal Project)</p>
-        </footer>
+        <br>
+        <br>
+        <div class="container">
+            <footer>
+                <div class="content bot-overlay flex-sb">
+                    <img src="images/logotrasnp.png" alt="Logo" class="logofooter">
+                    <p>Website by Rosa Silva</p>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
